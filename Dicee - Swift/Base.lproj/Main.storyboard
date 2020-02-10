@@ -44,10 +44,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="diceImageViewOne" destination="XVg-tN-UOd" id="G4T-tS-cYZ"/>
+                        <outlet property="diceImageViewTwo" destination="3ts-xN-BbV" id="s82-sw-mYv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-191.30434782608697" y="138.61607142857142"/>
+            <point key="canvasLocation" x="32" y="42"/>
         </scene>
     </scenes>
     <resources>
