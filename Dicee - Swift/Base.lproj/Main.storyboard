@@ -41,10 +41,10 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="95" translatesAutoresizingMaskIntoConstraints="NO" id="Ibs-vI-5N2">
                                                 <rect key="frame" x="59.5" y="86" width="295" height="100"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="XVg-tN-UOd">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="diceImageView1" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="XVg-tN-UOd">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                     </imageView>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="3ts-xN-BbV">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="diceImageView2" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="3ts-xN-BbV">
                                                         <rect key="frame" x="195" y="0.0" width="100" height="100"/>
                                                     </imageView>
                                                 </subviews>
@@ -69,6 +69,9 @@
                                                 <state key="normal" title="Roll">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Vd-KN-1cw"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -99,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="181.15942028985509" y="29.464285714285712"/>
+            <point key="canvasLocation" x="-835" y="-1"/>
         </scene>
     </scenes>
     <resources>
